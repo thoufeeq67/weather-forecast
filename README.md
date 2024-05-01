@@ -46,7 +46,7 @@ Once deployed, Netlify provides a range of features to help you manage your app.
 
 Overall, deploying your app to Netlify is a hassle-free process that allows you to focus on building great projects without worrying about infrastructure or deployment headaches. With its powerful features and intuitive interface, Netlify is the perfect choice for hosting your static websites and applications.
 
-- **Live Link :**  `link`
+- **Live Link :**  `https://jolly-griffin-087646.netlify.app/`.
 
 ## Conclusion
 
