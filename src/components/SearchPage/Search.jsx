@@ -14,7 +14,7 @@ const Search = () => {
         console.log(e);
         axios.get(`http://api.weatherapi.com/v1/current.json?key=97931f93e474486b984173037242904&q=${e}&aqi=no`)
             .then((res) => {
-                console.log(res);
+                console.log(JSON.stringify(res));
                 setSearchedValue([res.data]);
             }).catch((error) => {
                 console.log(error);

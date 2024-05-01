@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person1.png";
+
 import Hero_person2 from "./assets/images/Hero/Umbrella-pana.svg";
 import Hero_person3 from "./assets/images/Hero/Weather-amico.svg";
 
@@ -21,26 +21,17 @@ import AWS from "./assets/images/Skills/amazon_aws-icon.svg";
 import Laravel from "./assets/images/Skills/Laravel.png";
 import PHP from "./assets/images/Skills/PHP.png";
 import MySQL from "./assets/images/Skills/MySQL.png";
-import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/cityscape.png";
 import services_logo2 from "./assets/images/Services/countries.png";
 import services_logo3 from "./assets/images/Services/location-pin.png";
 
-import project1 from "./assets/images/Projects/Pos-Img.jpg";
-import project2 from "./assets/images/projects/Adviserlink-img.jpg";
-import project3 from "./assets/images/projects/Datics-Clone.jpg";
-import person_project from "./assets/images/projects/person1.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-// import Hireme_person from "./assets/images/Hireme/person.png";
-// import Hireme_person2 from "./assets/images/Hireme/person2.png";
-import Hireme_person from "./assets/images/projects/person1.png";
-import Hireme_person2 from "./assets/images/projects/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -67,10 +58,6 @@ export const content = {
       link: "#services",
       icon: RiServiceLine,
     },
-    // {
-    //   link: "#projects",
-    //   icon: RiProjectorLine,
-    // },
     {
       link: "../AboutUs",
       icon: TbListDetails,
@@ -85,8 +72,6 @@ export const content = {
       icon: ImSearch,
       Page: true,
     },
-
-
   ],
   hero: {
     title: "Whats Your Weather Now",
@@ -227,25 +212,6 @@ export const content = {
       },
     ],
   },
-  Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
-    image: person_project,
-    project_content: [
-      {
-        title: "POS",
-        image: project1,
-      },
-      {
-        title: "Adviser link",
-        image: project2,
-      },
-      {
-        title: "Datics Clone",
-        image: project3,
-      },
-    ],
-  },
   Testimonials: {
     title: "Testimonials",
     subtitle: "OUR CLIENT REVIEWS",
@@ -275,14 +241,6 @@ export const content = {
         name: "ROBBIN",
       },
     ],
-  },
-  Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
   },
   Contact: {
     title: "Contect Me",
